@@ -208,7 +208,7 @@
                 location.path('/search/' + searchString).search({exactMatch: exactMatch, resource: scope.currentScope.value});
 
             };
-            scope.text = '<span>FinCORE</span>';
+            scope.text = '<span>uBanks</span>';
 
             scope.logout = function () {
                 $rootScope.$broadcast("OnUserPreLogout");
